@@ -36,5 +36,5 @@ A personal diary management tool written in Bash. It lets you write entries (in 
 - Add unarchived entries to `Diary.7z`: <br>
 `./add-diary-entry.sh`
 
-⚠️ These scripts are designed for personal use; modify `ENTRY_DIR` and `WORKING_DIR` in the scripts if your paths differ.
+⚠️ These scripts are designed for personal use; modify `ENTRY_DIR` and `WORKING_DIR` in the scripts if your paths differ. <br>
 ⚠️ Please remember to keep your archive password safe, and always keep a backup of `Diary.7z`.
