@@ -19,22 +19,32 @@ A personal diary management tool written in Bash. It lets you write entries (in 
 
 ## Installation
 
-1. Clone the repository: <br>
-`git clone https://github.com/cozy533/safespace && cd safespace`
+1. Clone the repository:
+```
+git clone https://github.com/cozy533/safespace && cd safespace
+```
 
-2. Make the scripts executable: <br>
-`chmod +x write-diary-entry.sh add-diary-entry.sh`
+3. Make the scripts executable:
+```
+chmod +x write-diary-entry.sh add-diary-entry.sh
+```
 
-3. Optional: move the scripts to a directory in your `PATH` for easy access: <br>
-`sudo mv write-diary-entry.sh add-diary-entry.sh /usr/local/bin/`
+5. Optional: move the scripts to a directory in your `PATH` for easy access:
+```
+sudo mv write-diary-entry.sh add-diary-entry.sh /usr/local/bin/
+```
 
 ## Usage
 
-- Write an entry: <br>
-`.write-diary-entry.sh`
+- Write an entry:
+```
+.write-diary-entry.sh
+```
 
-- Add unarchived entries to `Diary.7z`: <br>
-`./add-diary-entry.sh`
+- Add unarchived entries to `Diary.7z`:
+```
+./add-diary-entry.sh
+```
 
 ⚠️ These scripts are designed for personal use; modify `ENTRY_DIR` and `WORKING_DIR` in the scripts if your paths differ. <br>
-⚠️ Please remember to keep your archive password safe, and always keep a backup of `Diary.7z`.
+Please remember to keep your archive password safe, and always keep a backup of `Diary.7z`.
