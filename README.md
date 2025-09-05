@@ -46,5 +46,5 @@ sudo mv write-diary-entry.sh add-diary-entry.sh /usr/local/bin/
 ./add-diary-entry.sh
 ```
 
-⚠️ These scripts are designed for personal use; modify `ENTRY_DIR` and `WORKING_DIR` in the scripts if your paths differ. <br>
+⚠️ Designed for personal use; modify `ENTRY_DIR` and `WORKING_DIR` in the scripts if your paths differ. <br>
 Please remember to keep your archive password safe, and always keep a backup of `Diary.7z`.
